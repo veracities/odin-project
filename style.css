@@ -1,0 +1,41 @@
+/* A small reset to make browsers behave */
+body {
+  margin: 0;
+  font-family: sans-serif; /* A nice default font */
+}
+
+/* This is our main header container */
+.header {
+  background-color: #835ac9; /* Purple background */
+  padding: 50px 128px; /* Space on top/bottom and left/right */
+  
+  /* Flexbox magic */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* This is the logo text */
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f4a5f4; /* Light pink color */
+}
+
+/* This is the container for our links */
+.links {
+  list-style-type: none; /* Removes the ugly bullets */
+  margin: 0;
+  padding: 0;
+  
+  /* Flexbox for the links too! */
+  display: flex;
+  gap: 24px; /* Creates space BETWEEN the links */
+}
+
+/* This styles the actual link text */
+a {
+  text-decoration: none; /* Removes the ugly underline */
+  font-size: 18px;
+  color: #df99f5; /* Light pink color */
+}
